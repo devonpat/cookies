@@ -1,0 +1,40 @@
+#chocolate{
+	height: 50px;
+	width: 115px;
+	background-color: brown;
+}
+
+#lemon{
+	height: 50px;
+	width: 115px;
+	background-color: yellow;
+}
+
+#sugar{
+	height: 50px;
+	width: 115px;
+	background-color: white;
+}
+
+#chipCount{
+	margin-left: 45px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 150%;
+}
+
+#sugarCount{
+	margin-left: 45px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 150%;
+}
+
+#lemonCount{
+	margin-left: 45px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 150%;
+}
+
+
