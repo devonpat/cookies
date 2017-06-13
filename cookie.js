@@ -28,12 +28,34 @@ $(document).ready(function(){
 		$("#lemonCount").html(Cookies.get('lemon'));
 	})
 
+	$("#resetChip").click(function() {
+		if (Cookies.get('chocolate') === undefined) {
+			Cookies.set('chocolate', 0);
+		}
+		Cookies.set('chocolate', parseInt(Cookies.get('chocolate')) * 0);
+		$("#chipCount").html(Cookies.get('chocolate'));
+	})
+
+	$("#resetSugar").click(function() {
+		if (Cookies.get('sugar') === undefined) {
+			Cookies.set('sugar', 0);
+		}
+		Cookies.set('sugar', parseInt(Cookies.get('sugar')) * 0);
+		$("#sugarCount").html(Cookies.get('sugar'));
+	})
+
+	
+	$("#resetLemon").click(function() {
+		if (Cookies.get('lemon') === undefined) {
+			Cookies.set('lemon', 0);
+		}
+		Cookies.set('lemon', parseInt(Cookies.get('lemon')) * 0);
+		$("#lemonCount").html(Cookies.get('lemon'));
+	})	
 });
 
 
-///on click check for Cookie if no cookie create cookie with 0 value
-//add 1 to cookie value
-//display cookies value there
+
 
 
 

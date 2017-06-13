@@ -1,3 +1,12 @@
+body {
+	background-image: url(monster2.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
 #chocolate{
 	height: 50px;
 	width: 115px;
@@ -14,6 +23,12 @@
 	height: 50px;
 	width: 115px;
 	background-color: white;
+}
+
+#reset{
+	height: 50px;
+	width: 115px;
+	background-color: green;
 }
 
 #chipCount{
@@ -35,6 +50,20 @@
 	margin-top: 15px;
 	margin-bottom: 15px;
 	font-size: 150%;
+}
+
+#lemonCount{
+	margin-left: 45px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 150%;
+}
+
+#cookieimg{
+	background-image: url(cookies.jpg);
+	margin-top: 50px;
+	height: 225px;
+	width: 225px;
 }
 
 
